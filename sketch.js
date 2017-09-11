@@ -30,6 +30,11 @@ function setup() {
 
 function draw() {
   background(0);
+  textSize(25);
+  text('Avoid the balls!', 850, 50);
+  text('The red balls follow you.', 850, 100);
+  text('If you leave the canvas, you die.', 850, 150);
+  text('If you died, press F5, then SPACE!', 850, 200);
   textSize(50);
   textStyle(BOLD);
   text('Score: ' + score, 10, 790);
